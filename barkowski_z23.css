@@ -1,0 +1,41 @@
+p#pogrubienie_barkowski
+{
+	font-size: 34px;
+	color: #8d5fcc;
+	
+}
+
+p#pochylona_barkowski
+{
+	font-size: 39pt;
+	color: #f1c368;
+	
+}
+
+p#index_gorny_barkowski
+{
+	font-size: 1,4cm;
+	color: #a19118;
+}
+
+p#index_dolny_barkowski
+{
+	font-size: 2,3cm;
+	color: hsl(173, 90%, 60%);
+}
+
+p#mono_barkowski
+{
+	font-size: 44px;
+	color: #21e174;
+}
+
+p#powiekszenie_barkowski
+{
+	color: #5b419a;
+}
+
+p#pomniejszenie_barkowski
+{
+	color: hsl(49, 56%, 48%);
+}

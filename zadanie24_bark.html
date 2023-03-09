@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+		<html lang="pl-PL">
+<html>
+		<head>
+			<meta charset="utf-8">
+			<title> </title>
+		</head>
+	<body>
+	
+	 <OL TYPE=1 START=1> 
+		<h1><LI> )Jakie standardowo dostępne są czcionki w systemie Windows( trzy, użyj wyliczenia z kwadratem</li></h1><br>
+			<ul type = "square">
+				<li> Times New Roman (szeryfowa) </li>
+				<li>	Arial (bezszeryfowa)</li>
+				<li>	Courier New (monotypiczna)</li>
+			</ul>
+			<h1><LI> )Jakich czcionek dodatkowo dostarcza Internet Explorerem ( cztery, użyj wyliczenia z okręgiem nie kołem).</li></h1><br>
+			<ul type = "circle">
+				<li> Verdana</li>
+				<li>	Tahoma</li>
+				<li>'Trebuchet MS'</li>
+				<li >Georgia</li>
+			</ul>
+		<h1><LI> )Wymień rodziny ogólne ( pięć, użyj wyliczenia z kołem, podkreślenie, przykłady) .</li></h1><br>
+			<ul type = "disc">
+				<li> serif - <u> czcionka szeryfowa </u>(końcówki znaków posiadają "ozdobniki"), np.: 'Times New Roman', Georgia, Garamond, Bodoni </li>
+				<li> 	sans-serif -  <u> czcionka bezszeryfowa </u>(końcówki znaków są proste), np.: Arial, Verdana, 'Trebuchet MS', Helvetica, Univers, Futura </li>
+				<li>  monospace -  <u> czcionka o stałej szerokości znaków  </u> - monotypiczna (wygląda, jak pisana na maszynie), np.: Courier, 'Courier New' </li>
+				<li>  cursive - <u> czcionka mająca pewne cechy pochyłej  </u>(wygląda, jak pisana ręcznie)</li>
+				<li>  fantasy - <u> czcionka fantazyjna  </u>(dekoracyjna)</li>
+			</ul>
+		<h1><LI> )Kiedy stosujemy rodziny czcionek, w jaki sposób wpisujemy( deklarujemy rodziny czcionek).</li></h1><br>
+		<p>
+		Rodziny ogólne wykorzystuje się jako ostatnia alternatywa - jeśli użytkownik nie będzie posiadał żadnej czcionki, której nazwę wpisaliśmy wprost. Dlatego zwykle rodzinę ogólną podaje się na samym końcu listy nazw czcionek, np.:
+		<br>
+		<textarea rows =1 cols=80>
+		body { font-family: Arial, Helvetica, Verdana, sans-serif }
+		</textarea>
+		</p>
+		
+		<h1><LI> )Rodzaje wyrównanie tekstu (cztery, wyliczenie).</li></h1><br>
+			<ul >
+				<li> Do prawej  </li>
+				<li>	Do lewej 	</li>
+				<li> Wyśrodkowane </li>
+				<li> Wyjustowane </li>
+			</ul>
+		
+		<h1><LI> )Kolor tekstu (składnia opis).</li></h1><br>
+			<p> składnia reguły:</p>
+			<textarea rows="1" cols = "30">selektor {color: kolor;}</textarea>
+			<p>
+				Wyraz selektor ma zastosowanie do wszystkich elementów.
+				Natomiast jako kolor należy podać definicję koloru.
+				Dzięki temu poleceniu można ustalić dowolny kolor tekstu.
+			</p>
+		
+		
+		<h1><LI>  )dekoracja tekstu (składnia, opis, odpowiednie wcięcia, podkreślenia numerowania a) b)…)</li></h1><br>
+			<p> Tekst można „udekorować” w sposób następujący:
+			</p>
+			<ol type = "a" >
+				<li> Podkreślić - (underline)</li>
+				<li> Przekreślić - (line-through)</li>
+				<li>Nadkreślić - (overline)</li>
+				<li>Można dodać migotanie tekstu (tylko Netspace/Mozilla/Opera) – (blink)</li>
+				<br>
+				<textarea rows="1" cols="40">selektor {text-decoration: dekoracja;}</textarea>
+				
+			</ol>
+		
+		<h1><LI> )Warianty czcionek.</li></h1><br>
+			<ul type = "disc">
+				<li> normal - czcionka normalna (podstawowa)</li>
+				<li> small-caps - kapitaliki</li>
+			</ul>
+			<p>
+			"kapitaliki", czyli tekst napisany wielkimi literami, lecz czcionką o wielkości małych liter.
+			</p>
+		
+		<h1><LI> )Pogrubienie czcionek (wyliczenia).</li></h1><br>
+			<ul>
+				<li> normal - czcionka normalna (podstawowa) </li>
+				<li>	bold - czcionka pogrubiona</li>
+				<li>100, 200, 300, 400 (odpowiednik "normal"), 500, 600, 700 (odpowiednik "bold"), 800, 
+						900 - każdy następny numer wskazuje wagę czcionki przynajmniej tak samo
+						wytłuszczonej jak dla poprzedniej wartości w sekwencji </li>
+			</ul>
+		
+		<h1><LI> )Rozmiar czcionek (wyliczenia, .......).</li></h1><br>
+			<ul type = "disc" >
+				<li>xx-small - najmniejsza</li>
+				<li>x-small - mniejsza</li>
+				<li>small - mała</li>
+				<li>medium - średnia</li>
+				<li>large - duża</li>
+				<li>x-large - większa</li>
+				<li>xx-large - największa</li>
+			</ul>
+			<br>
+			<p>
+			z użyciem różnych jednostek:
+			</p>
+			<ul type = "disc">
+				<li>rozmiar 0.5cm</li>
+				<li>rozmiar 4mm</li>
+				<li>rozmiar 0.25in</li>
+				<li>rozmiar 10pt</li>
+				<li>rozmiar 1pc</li>
+				<li>rozmiar 15px</li>
+				<li>rozmiar 1em</li>
+				<li>rozmiar 2ex</li>
+			</ul>
+			
+			
+		<h1><LI> )Transformacja tekstu (składnia, opis, podkreślenia).</li></h1><br>
+			<p> składnia reguły: </p>
+			<textarea rows="1" cols="40"> selektor {text-transform: transformacja;}</textarea>
+			<p>Wyraz selektor ma zastosowanie do wszystkich elementów.</p>
+		
+			<p><u>Transformacja</u><br>
+			"none" - bez zmian<br>
+			"capitalize" - zamiana pierwszych liter wszystkich wyrazów na wielkie<br>
+			"uppercase" - zamiana wszystkich liter na wielkie<br>
+			"lowercase" - zamiana wszystkich liter na małe<br>
+			</p>
+			
+	
+			
+		<h1><LI> )Wcięcia tekstu(składnia, jednostki miar).</li></h1><br>
+			<p> składnia reguły: </p>
+			<textarea rows="1" cols="40"> selektor {text-indent: wcięcie;}</textarea>
+			<p>
+			Wyraz selektor ma zastosowanie do elementów blokowych<br>
+			
+			<u>wcięcie:</u><br>
+				należy podać konkretną wielkość, używając jednostek miary:
+					piksele - px<br>
+					punkty edytorskie - pt<br>
+					wysokość litery "x" - ex<br>
+					wysokość aktualnej czcionki - em<br>
+					centymetry lub milimetry - cm, mm<br>
+					części dziesiętne centymetra pisane z kropką np.: 0.5cm<br>
+					cale - in (1in=2.54cm)<br>
+					procent wielkości nadrzędnej - %<br>
+		
+			</p>
+	
+		<h1><LI> )Odstęp miedzy wierszami.</li></h1><br>
+			<p> składnia reguły: </p>
+			<textarea rows="1" cols="40"> selektor {line-height: odstęp;}</textarea>
+			<p>
+			Wyraz selektor ma zastosowanie do wszystkich elementów.<br>
+			
+			<u>odstęp:</u><br>
+				należy podać konkretną wielkość, używając jednostek miary:
+					piksele - px<br>
+					punkty edytorskie - pt<br>
+					wysokość litery "x" - ex<br>
+					wysokość aktualnej czcionki - em<br>
+					centymetry lub milimetry - cm, mm<br>
+					części dziesiętne centymetra pisane z kropką np.: 0.5cm<br>
+					cale - in (1in=2.54cm)<br>
+					"normal" - przywraca wartość domyślną<br>
+		
+			</p>
+			
+			<h1><LI> )Odstęp między wyrazami.</li></h1><br>
+			<p> składnia reguły: </p>
+			<textarea rows="1" cols="40"> selektor {word-spacing: odstęp;}</textarea>
+			<p>
+			Wyraz selektor ma zastosowanie do wszystkich elementów.<br>
+			
+			<u>odstęp:</u><br>
+				należy podać konkretną wielkość, używając jednostek miary:
+					piksele - px<br>
+					punkty edytorskie - pt<br>
+					wysokość litery "x" - ex<br>
+					wysokość aktualnej czcionki - em<br>
+					centymetry lub milimetry - cm, mm<br>
+					części dziesiętne centymetra pisane z kropką np.: 0.5cm<br>
+					cale - in (1in=2.54cm)<br>
+					"normal" - przywraca wartość domyślną<br>
+		
+			</p>
+			
+			
+			
+			
+			<h1><LI> )Odstęp między literami</li></h1><br>
+			<p> składnia reguły: </p>
+			<textarea rows="1" cols="40"> selektor {letter-spacing: odstęp;}</textarea>
+			<p>
+			<u>odstęp:</u><br>
+				należy podać konkretną wielkość, używając jednostek miary: <br>
+				piksele - px<br>
+				punkty edytorskie - pt<br>
+				wysokość litery "x" - ex<br>
+				wysokość aktualnej czcionki - em<br>
+				centymetry lub milimetry - cm, mm<br>
+				części dziesiętne centymetra pisane z kropką np.: 0.5cm<br>
+				cale - in (1in=2.54cm)<br>
+				"normal" - przywraca wartość domyślną<br>
+		</p>
+			
+			<h1><LI> )Łączenie właściwości czcionek i tekstu</li></h1><br>
+			<p>Prawidłowa kolejność wartości atrybutów:
+			</p>
+			<ol type = "1">
+				<li> font-style</li>
+				<li> font-variant</li>
+				<li> font-weight</li>
+				<li>font-size (po tym ukośnik „/”; bezpośrednio przed „line-height”)</li>
+				<li>line-height</li>
+				<li>font-family</li>
+			</ol>
+				<p>
+				składnia reguły:
+				</p>
+				<textarea rows="1" cols="40">selektor {font: wartości atrybutów;}</textarea>
+				<p>
+				Wyraz selektor ma zastosowanie do wszystkich elementów.<br>
+				Jako wartości atrybutów wpisać należy zgodnie z podaną poniżej kolejnością, oddzielając spacjami, konkretne wartości, które opisują poszczególne atrybuty czcionek i tekstu. Można niektóre pominąć. <br>
+				</p>
+				<p>wartości atrybutów: <br>
+					font-style<br>
+					font-variant<br>
+					font-weight<br>
+					font-size<br>
+					line-height<br>
+					font-family<br>
+				</p>
+				<p>
+				Dzięki temu poleceniu można w jednym miejscu zebrać atrybuty dotyczące czcionek i tekstu. Pomiędzy font-size, a line-height należy wstawić ukośnik (bezpośrednio przed line-height).
+				</p>
+				
+				
+			</ul>
+			
+	</body>
+</html>

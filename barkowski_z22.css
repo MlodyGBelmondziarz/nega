@@ -1,0 +1,18 @@
+p
+{
+color:red;
+font-size:22pt;
+}
+p#gruby_barkowski
+{
+color: green;
+font-weight: bold;
+font-size:17pt;
+}
+
+#dlawszystkich_barkowski
+{
+	color: yellow;
+	font-size: 10pt;
+	font: Arial;
+}
